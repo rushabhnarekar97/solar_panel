@@ -1,0 +1,10 @@
+.category-slider .image img {
+    width: 100%; /* Ensures it fills the container */
+    height: 200px; /* Set a fixed height */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-radius: 10px; /* Optional for rounded corners */
+  }
+  .cat{
+    color: #96b416!important;
+    font-weight: 700 !important;
+  }
