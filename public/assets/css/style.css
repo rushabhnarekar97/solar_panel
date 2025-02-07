@@ -4406,6 +4406,11 @@ Section Title
   .sec-title h1 {
     font-size: 54px;
   }
+  .sticky-header {
+    padding-top:15px;
+    padding-bottom:15px;
+
+  }
 }
 .sec-title h2 {
   position: relative;
