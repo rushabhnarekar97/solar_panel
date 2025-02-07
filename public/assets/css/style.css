@@ -5067,7 +5067,7 @@ Section Title
   .banner-section-two {
     position: relative;
     height: auto;
-    min-height: auto;
+    /* min-height: auto; */
     padding-top: 100px;
 }
 }
