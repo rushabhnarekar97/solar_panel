@@ -12540,7 +12540,7 @@ Section Title
   margin-top: -8px;
 }
 .product-details .product-info .product-details__title {
-  font-size: 30px;
+  font-size: 28px;
   line-height: 44px;
   font-weight: 700;
   margin: 0;
@@ -14265,7 +14265,7 @@ Page Title
   content: "";
 }
 .page-title .title {
-  font-size: 50px;
+  font-size: 40px;
   color: #ffffff;
   margin-bottom: 17px;
 }
