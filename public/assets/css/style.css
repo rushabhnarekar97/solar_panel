@@ -302,8 +302,8 @@ section > .container-fluid {
 }
 /*=== Default Form ===*/
 .form-control, .input-text {
-  height: calc(2.25rem + 27px);
-  padding: 14px 30px;
+  height: calc(2.25rem + 15px);
+  padding: 0px 30px;
   outline: 0;
   background-color: #f4f5f8;
   border: 1px solid #f4f5f8;
@@ -16352,7 +16352,7 @@ Sidebar
 .contact-details__info {
   position: relative;
   display: block;
-  margin-top: 41px;
+  margin-top: 0px;
 }
 .contact-details__info li {
   position: relative;
@@ -16364,8 +16364,8 @@ Sidebar
   align-items: center;
 }
 .contact-details__info li .icon {
-  height: 80px;
-  width: 80px;
+  height: 60px;
+  width: 60px;
   background-color: var(--theme-color1);
   display: -webkit-box;
   display: -ms-flexbox;

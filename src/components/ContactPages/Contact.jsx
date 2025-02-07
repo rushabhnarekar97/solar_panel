@@ -22,7 +22,7 @@ function Contact() {
               <div className="col-xl-7 col-lg-6">
                 <div className="sec-title">
                   <span className="sub-title">Send us email</span>
-                  <h2>Feel free to write</h2>
+                  <h2 className='text-capitalize'>Feel free to write</h2>
                 </div>
                 {/* Contact Form */}
                 <form id="contact_form" name="contact_form" className="" action="#" method="post">
@@ -63,9 +63,9 @@ function Contact() {
               </div>
               <div className="col-xl-5 col-lg-6">
                 <div className="contact-details__right">
-                  <div className="sec-title">
+                  <div className="sec-title mb-4">
                     <span className="sub-title">Need any help?</span>
-                    <h2>Get in touch with us</h2>
+                    <h2 className='text-capitalize'>Get in touch with us</h2>
                     <div className="text">Lorem ipsum is simply free text available dolor sit amet consectetur notted adipisicing elit sed do eiusmod tempor incididunt simply dolore magna.</div>
                   </div>
                   <ul className="list-unstyled contact-details__info">
@@ -74,8 +74,8 @@ function Contact() {
                         <span className="lnr-icon-phone-plus"></span>
                       </div>
                       <div className="text ml-xs--0 mt-xs-10">
-                        <h6>Have any question?</h6>
-                        <Link to="tel:980089850"><span>Free</span> +92 (020)-9850</Link>
+                        <h6 className='mb-1'>Have any question?</h6>
+                        <Link to="tel:980089850"><span></span> +92 (020)-9850</Link>
                       </div>
                     </li>
                     <li className="d-block d-sm-flex align-items-sm-center ">
@@ -83,7 +83,7 @@ function Contact() {
                         <span className="lnr-icon-envelope1"></span>
                       </div>
                       <div className="text ml-xs--0 mt-xs-10">
-                        <h6>Write email</h6>
+                        <h6 className='mb-1'>Write email</h6>
                         <Link to="mailto:needhelp@company.com">needhelp@company.com</Link>
                       </div>
                     </li>
@@ -92,8 +92,8 @@ function Contact() {
                         <span className="lnr-icon-location"></span>
                       </div>
                       <div className="text ml-xs--0 mt-xs-10">
-                        <h6>Visit anytime</h6>
-                        <span>66 broklyn golden street. New York</span>
+                        <h6 className='mb-1'>Visit anytime</h6>
+                        <a>66 broklyn golden street. New York</a>
                       </div>
                     </li>
                   </ul>
