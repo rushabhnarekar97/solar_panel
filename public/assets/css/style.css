@@ -1840,7 +1840,7 @@ input::placeholder {
   position: relative;
   font-size: 14px;
   line-height: 27px;
-  padding: 17px 41px;
+  padding: 12px 41px;
   font-weight: 700;
   overflow: hidden;
   color: var(--theme-color-light);
