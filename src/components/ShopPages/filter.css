@@ -7,7 +7,7 @@
 }
 
 .background-blue{
-    background: #a7bf12;
+    background: var(--theme-color1);
     color: #fff;
   }
   .basic-chip{

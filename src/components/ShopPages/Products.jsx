@@ -17,7 +17,7 @@ function Products() {
     <>
       <HomeThreeHeader />
       <PageTitle
-        title="Shop"
+        title="Products"
         breadcrumb={[
           { link: "/", title: "Home" },
           { link: "/products", title: "Products" },

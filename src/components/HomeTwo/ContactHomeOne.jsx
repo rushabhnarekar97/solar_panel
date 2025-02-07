@@ -368,7 +368,7 @@ function ContactHomeOne({ className }) {
                         {/* Submit Button */}
                         <div className="col-lg-12 col-md-12 col-sm-12 form-group">
                           <button
-                            className="theme-btn btn-style-two dark-bg hover-one"
+                            className="theme-btn btn-style-one dark-bg"
                             type="submit"
                           >
                             <span className="btn-title">

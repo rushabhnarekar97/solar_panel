@@ -10,7 +10,7 @@ function BackToTop({ className }) {
         <>
             <div className={`scroll-to-top ${className || ''}`}>
                 <Link href="#">
-                    <i className="fa fa-angle-up" />
+                    <i className="fa fa-angle-up text-white" />
                 </Link>
             </div>
         </>

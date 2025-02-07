@@ -19,10 +19,10 @@ function FooterHomeOne({ className }) {
                     <div className="top-right">
                         <ul className="social-icon-two">
                         <li className="title">Follow Us On</li>
-                                                <li><Link to="#"><i className="icon fab fa-google"></i></Link></li>
-                        
-                        <li><Link to="#"><i className="icon fab fa-facebook-f"></i></Link></li>
-                        <li><Link to="#"><i className="icon fab fa-twitter"></i></Link></li>
+                                      <li><Link to="https://www.gmail.com"><i className="icon fab fa-google"></i></Link></li>
+                                                       {/* <li><Link to="#"><i className="icon fab fa-pinterest"></i></Link></li> */}
+                                                       <li><Link to="https://x.com/"><i className="icon fab fa-twitter"></i></Link></li>
+                                                       <li><Link to="https://facebook.com/"><i className="icon fab fa-facebook-f"></i></Link></li>
                         {/* <li><Link to="#"><i className="icon fab fa-linkedin-in"></i></Link></li> */}
                         {/* <li><Link to="#"><i className="icon fab fa-pinterest"></i></Link></li> */}
                         </ul>
@@ -53,7 +53,7 @@ function FooterHomeOne({ className }) {
                             <h5 className="widget-title">Quick Links</h5>
                             <div className="widget-content">
                                 <ul className="user-links">
-                                <li><i className="icon fa fa-angle-right"></i> <Link to="#">Home</Link></li>
+                                <li><i className="icon fa fa-angle-right"></i> <Link to="/">Home</Link></li>
                                 <li><i className="icon fa fa-angle-right"></i> <Link to="/about">About Us</Link></li>
                                 <li><i className="icon fa fa-angle-right"></i> <Link to="/contact">Contact Us</Link></li>
                                 </ul>
@@ -88,7 +88,9 @@ function FooterHomeOne({ className }) {
                                     <span className="icon fal fa-envelope"></span>
                                     <input type="email" name="Email" placeholder="Your Email" required/>
                                     </div>
-                                    <button type="submit" className="theme-btn btn-style-one bg-orange"><span className="btn-title">Subscribe now</span></button>
+                                    <button type="submit"
+                               
+                                    className="ss theme-btn btn-style-two1"><span className="btn-title">Subscribe now</span></button>
                                 </div>
                                 </form>
                             </div>

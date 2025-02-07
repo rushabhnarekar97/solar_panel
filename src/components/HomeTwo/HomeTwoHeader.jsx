@@ -34,17 +34,17 @@ function Header3({ className = '', scroll = false}) {
                     <ul className="list-style-one">
                         <li><i className="fal fa-clock"></i> Mon - Fri: 09.00am - 10.00 pm</li>
                         <li><i className="fa fa-map-marker-alt"></i> Richardson, California 62639 </li>
-                        <li><i className="fa fa-envelope"></i> <Link to="#" className="mailto:soliur@mail.com">usedsolarpanel@mail.com</Link></li>
+                        <li><i className="fa fa-envelope"></i> <Link to="mailto:info@example.com">usedsolarpanel@mail.com</Link></li>
                     </ul>
                     </div>
                 
                     <div className="top-right">
 
                     <ul className="social-icon-one light">
-                        <li><Link to="#"><i className="icon fab fa-google"></i></Link></li>
-                        {/* <li><Link to="#"><i className="icon fab fa-pinterest"></i></Link></li> */}
-                        <li><Link to="#"><i className="icon fab fa-twitter"></i></Link></li>
-                        <li><Link to="#"><i className="icon fab fa-facebook-f"></i></Link></li>
+                       <li><Link to="https://www.gmail.com"><i className="icon fab fa-google"></i></Link></li>
+                                        {/* <li><Link to="#"><i className="icon fab fa-pinterest"></i></Link></li> */}
+                                        <li><Link to="https://x.com/"><i className="icon fab fa-twitter"></i></Link></li>
+                                        <li><Link to="https://facebook.com/"><i className="icon fab fa-facebook-f"></i></Link></li>
                         {/* <li><Link to="#"><i className="icon fab fa-linkedin-in"></i></Link></li> */}
                     </ul>
                     </div>
@@ -83,7 +83,7 @@ function Header3({ className = '', scroll = false}) {
                     </button>
 
                     <div className="btn-box">
-                        <Link to="/contact" className="theme-btn btn-style-one bg-orange"><span className="btn-title">Request a quote</span></Link>
+                        <Link to="/products" className="theme-btn btn-style-one bg-orange"><span className="btn-title">Get Started</span></Link>
                     </div>
                         
                     <div className="mobile-nav-toggler" onClick={toggleMobileMenu}><span className="icon lnr-icon-bars"></span></div>

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function HeroPageTitle({ title, breadcrumb = [] }) {
     return (
         <>
-            <section className="page-title" style={{ backgroundImage: 'url(../../assets/images/background/page-title-bg.png)' }}>
+            <section className="page-title" style={{ backgroundImage: 'url(../../assets/products/bannerCommonSolar.jpg)' }}>
                 <div className="auto-container">
                     <div className="title-outer text-center">
                         <h1 className="title">{title}</h1>
